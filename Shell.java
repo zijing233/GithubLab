@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 /**
- * 炮弹类
- * @author Zijing
+ * 墓脷木呕艛艜
+ * @author Zijin
  *
  */
 public class Shell extends GameObject{
@@ -24,7 +24,7 @@ public class Shell extends GameObject{
 		g.setColor(Color.YELLOW);
 		g.fillOval((int)x, (int)y, width, height);
 		
-		//炮弹沿着任意角度去飞
+		//墓脷木呕艃艠脳墓膶脦艊芒藵脟艣膶膶慕藝脡
 		x += speed*Math.cos(degree);
 		y += speed*Math.sin(degree);
 		

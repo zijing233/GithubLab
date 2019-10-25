@@ -6,14 +6,15 @@ import java.net.URL;
 import javax.imageio.ImageIO;
  
 public class GameUtil {
-    // ¹¤¾ßÀà×îºÃ½«¹¹ÔìÆ÷Ë½ÓĞ»¯¡£
+    // å·¥å…·ç±»æœ€å¥½å°†æ„é€ å™¨ç§æœ‰åŒ–ã€‚
     private GameUtil() {
      
     } 
     /**
-     * Ö¸¶¨Â·¾¶µÄÍ¼Æ¬ÎÄ¼ş¶ÔÏó
+     * æŒ‡å®šè·¯å¾„çš„å›¾ç‰‡æ–‡ä»¶å¯¹è±¡
      * @param path
      * @return
+     * @zijing
      */
     public static Image getImage(String path) {
         BufferedImage bi = null;
