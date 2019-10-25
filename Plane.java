@@ -5,7 +5,7 @@ import java.awt.Image;
 import java.awt.event.KeyEvent;
 
 public class Plane extends GameObject {
-	int speed = 6;
+	int speed = 5;
 	boolean left,up,right,down;
 	boolean live = true;
 	public void drawSelf(Graphics g) {
@@ -44,7 +44,7 @@ public Plane(Image img,double x,double y) {
 
 	
 }
-//°´ÏÂÄ³¸ö¼ü£¬Ôö¼ÓÏàÓ¦µÄ·½Ïò
+//æŒ‰ä¸‹æŸä¸ªé”®ï¼Œå¢åŠ ç›¸åº”çš„æ–¹å‘
 public void addDirection(KeyEvent e ) {
 	switch (e.getKeyCode()) {
 	case KeyEvent.VK_LEFT:
@@ -63,7 +63,7 @@ public void addDirection(KeyEvent e ) {
 	 
 }
 
-//°´ÏÂÄ³¸ö¼ü£¬È¡ÏûÏàÓ¦µÄ·½Ïò
+//æŒ‰ä¸‹æŸä¸ªé”®ï¼Œå–æ¶ˆç›¸åº”çš„æ–¹å‘
 public void minusDirection(KeyEvent e ) {
 	switch (e.getKeyCode()) {
 	case KeyEvent.VK_LEFT:
